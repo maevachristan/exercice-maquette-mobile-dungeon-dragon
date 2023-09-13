@@ -1,9 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  max-width: 320px;
+  max-width: 414px;
   margin: auto;
+  color: #172632;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-size: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+h1 {
+  background-color: #e7e7db;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 14px 0;
+}
+
+header hr {
+  background-color: #df0000;
+  border: none;
+  height: 3px;
+  margin: auto;
+}
+
+.what-is-this {
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 24px 0;
+}
+
+.starter {
+  color: #df0000;
+}
+
+.solo {
+  background-color: #df0000;
+  border: none;
+  height: 1px;
+}
+
+.description {
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+  margin: 22px 0 0;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  margin: 38px 0 12px 0;
+}
+
+.all-about {
+  text-align: center;
+  margin: 0 37px;
 }
